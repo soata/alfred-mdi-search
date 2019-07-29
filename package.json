@@ -14,12 +14,18 @@
     "postinstall": "alfy-init;node prep.js;",
     "preuninstall": "alfy-cleanup"
   },
-  "keywords": ["alfred", "material", "design", "icon", "mdi"],
+  "keywords": [
+    "alfred",
+    "material",
+    "design",
+    "icon",
+    "mdi"
+  ],
   "dependencies": {
     "@mdi/font": "latest",
     "@mdi/svg": "latest",
     "alfred-notifier": "^0.2.0",
     "alfy": "0.9.0",
-    "svg2img": "^0.6.0"
+    "svg2img": "^0.6.1"
   }
 }
