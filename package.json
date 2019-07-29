@@ -1,0 +1,25 @@
+{
+  "name": "alfred-mdi-search",
+  "version": "0.1.0",
+  "description": "Alfred 3 workflow to find Material Design Icons",
+  "license": "MIT",
+  "author": {
+    "name": "soata",
+    "url": "https://github.com/soata"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init;node prep.js;",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": ["alfred", "material", "design", "icon", "mdi"],
+  "dependencies": {
+    "@mdi/font": "latest",
+    "@mdi/svg": "latest",
+    "alfred-notifier": "^0.2.0",
+    "alfy": "0.9.0",
+    "svg2img": "^0.6.0"
+  }
+}

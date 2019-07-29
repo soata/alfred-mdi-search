@@ -1,0 +1,9 @@
+dist
+png/*
+!.gitkeep
+*.DS_Store
+._*
+
+node_modules
+yarn.lock
+
